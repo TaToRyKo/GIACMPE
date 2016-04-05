@@ -14,11 +14,17 @@ TEMPLATE = app
 SOURCES += \
     Source/main.cpp \
     Source/mainwindow.cpp \
-    Source/gamewindow.cpp
+    Source/gamewindow.cpp \
+    Source/gamedata.cpp \
+    Source/gameinteligence.cpp \
+    Source/gamelogic.cpp
 
 HEADERS += \
     Headers/mainwindow.h \
-    Headers/gamewindow.h
+    Headers/gamewindow.h \
+    Headers/gamedata.h \
+    Headers/gameinteligence.h \
+    Headers/gamelogic.h
 
 RESOURCES += \
     resources.qrc
